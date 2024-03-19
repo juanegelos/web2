@@ -8,7 +8,7 @@ def add_todo():
     todos.append(todo)
     Functions1.escribir_archivo(todos)
 
-st.title(":blue[Mi lista de tareas] :sunglasses:")
+st.title(":red[Mi lista de tareas] :sunglasses:")
 st.subheader("Esta es mi lista de tareas pendientes", divider=True)
 st.write(":red[Las voy a hacer cuando me de la gana]")
 
